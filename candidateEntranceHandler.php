@@ -6,7 +6,7 @@ include 'dbconnect.php';
         $target_file = $target_dir . $_FILES['photo']['name'];
         move_uploaded_file($_FILES['photo']['tmp_name'],$target_file);
         $pname = $_FILES['photo']['name'];
-
+        
 
         $name = $_POST['candidatename'];
         $slogan = $_POST['slogan'];
